@@ -1,0 +1,909 @@
+ <form method="post" name="phonelead" action="https://s937142972.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form35 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" onsubmit="return handleFormSubmit(this)" id="form38" class="elq-form" >
+    <input value="NEWTOUR" type="hidden" name="elqFormName"  />
+    <input value="937142972" type="hidden" name="elqSiteId"  />
+    <input name="elqCampaignId" type="hidden"  />
+          Tell us about yourself
+  
+              First Name (Given Name)
+
+            <input required = "" id="field5" name="FirstName" type="text" value="" class="field-size-top-large" onkeypress="return onlyAlphabets(event,this);" />
+
+
+              Last Name (Surname)
+
+
+            <input id="field6" required =""  name="LastName" type="text" value="" class="field-size-top-large"  onkeypress="return onlyAlphabets(event,this);" />
+
+
+              Email
+
+
+            <input id="email" name="Email" title="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="text" placeholder="" required = ""/>
+
+			Date
+			<input type="text" name="tourDate" id="datepicker" /> 
+
+              Special Accommodations:
+            <textarea id="field3" name="specialAccommodations" class="field-size-top-large" >
+            </textarea>
+              Please let us know if you will require additional resources during your visit.
+
+
+              Phone
+
+            <input id="field8" required ="" name="PrimaryPhone" type="text" value="" class="field-size-top-large" onkeypress="return isNumber(event)" />
+ 
+
+			What is your highest level of education?
+
+
+			<select id="educationLevel" name="EducationLevel"  data-ddignore="true" data-maxitemsvisible="4" required = "">
+			<option value="">Select an Education Level</option>
+			<option value="Current-High-School-Student">Current High School Student</option>
+			<option value="High-School-Diploma">High School Diploma</option>
+			<option value="Some-College-Credits">Some College Credits</option>
+			<option value="Associate-Degree">Associate's Degree</option>
+			<option value="Bachelor-Degree">Bachelor's Degree</option>
+			<option value="Second-Bachelor-Degree">Second Bachelor's Degree</option>
+			<option value="Some-Post-Graduate">Some Post Graduate</option>
+			<option value="Master-Degree">Master's Degree</option>
+			<option value="Doctoral-Degree">Doctoral Degree</option>
+			<option value="Did-Not-Complete-High-School-No-GED">Did Not Complete High School, No GED</option>
+			</select>
+
+			<div id = "interest" style="display: none">
+
+
+
+			What are you most interested in studying?
+
+
+
+
+			<div class="containerDavid">
+			<div class="Current-High-School-Student">
+			<select id="Program1" name="Program" class="field-size-top-large">
+            <option value="">Select an area of interest</option>
+			<option value="ACT">Acting</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH-D">Architectural Design (4 Year)</option>
+			<option value="ARH2">Architecture (5 Year Licensure)</option>
+			<option value="ARE">Art Education</option>
+			<option value="AHS">Art History</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="IND">Industrial Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-MP">Music Production</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="CA">Web Design &amp; New Media</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+					</select>
+					</div>
+			<div class="High-School-Diploma">
+			<select id="Program2" name="Program" class="field-size-top-large">
+            <option value="">Select an area of interest</option>
+			<option value="ACT">Acting</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH-D">Architectural Design (4 Year)</option>
+			<option value="ARH2">Architecture (5 Year Licensure)</option>
+			<option value="ARE">Art Education</option>
+			<option value="AHS">Art History</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="IND">Industrial Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-MP">Music Production</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="CA">Web Design &amp; New Media</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+				</select>
+				</div>
+			<div class="Some-College-Credits">
+			<select id="Program3" name="Program" class="field-size-top-large">
+            <option value="">Select an area of interest</option>
+			<option value="ACT">Acting</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH-D">Architectural Design (4 Year)</option>
+			<option value="ARH2">Architecture (5 Year Licensure)</option>
+			<option value="ARE">Art Education</option>
+			<option value="AHS">Art History</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="IND">Industrial Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-MP">Music Production</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="CA">Web Design &amp; New Media</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+				</select>
+				</div>
+			<div class="Associate-Degree">
+			<select id="Program4" name="Program" class="field-size-top-large">
+            <option value="">Select an area of interest</option>
+			<option value="ACT">Acting</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH-D">Architectural Design (4 Year)</option>
+			<option value="ARH2">Architecture (5 Year Licensure)</option>
+			<option value="ARE">Art Education</option>
+			<option value="AHS">Art History</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="IND">Industrial Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-MP">Music Production</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="CA">Web Design &amp; New Media</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+				</select>
+			</div>
+			<div class="Bachelor-Degree">
+			<select id="Program5" name="Program" class="field-size-top-large">
+			<option value="">Select an area of interest</option>
+            <option value="ACT">Acting</option>
+			<option value="ARH1">Advanced Architectural Design</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH">Architecture</option>
+			<option value="ARE">Art Education</option>
+			<option value="ARE1">Art Education (MAT)</option>
+			<option value="AHS">Art History</option>
+			<option value="ATC">Art Teaching Credential</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>			
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="IND">Industrial Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+			<option value="CA">Web Design &amp; New Media</option>
+				</select>
+			</div>
+			<div class="Second-Bachelor-Degree">
+			<select id="Program6" name="Program" class="field-size-top-large">
+			<option value="">Select an area of interest</option>
+             <option value="ACT">Acting</option>
+			<option value="ARH1">Advanced Architectural Design</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH">Architecture</option>
+			<option value="ARE">Art Education</option>
+			<option value="ARE1">Art Education (MAT)</option>
+			<option value="AHS">Art History</option>
+			<option value="ATC">Art Teaching Credential</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>			
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="IND">Industrial Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+			<option value="CA">Web Design &amp; New Media</option>
+        </select>
+    </div>
+    <div class="Some-Post-Graduate">
+        <select id="Program7" name="Program" class="field-size-top-large">
+        <option value="">Select an area of interest</option>
+             <option value="ACT">Acting</option>
+			<option value="ARH1">Advanced Architectural Design</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH">Architecture</option>
+			<option value="ARE">Art Education</option>
+			<option value="ARE1">Art Education (MAT)</option>
+			<option value="AHS">Art History</option>
+			<option value="ATC">Art Teaching Credential</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>			
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="IND">Industrial Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+			<option value="CA">Web Design &amp; New Media</option>
+        </select>
+    </div>
+    <div class="Master-Degree">
+        <select id="Program8" name="Program" class="field-size-top-large">
+        <option value="">Select an area of interest</option>
+             <option value="ACT">Acting</option>
+			<option value="ARH1">Advanced Architectural Design</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH">Architecture</option>
+			<option value="ARE">Art Education</option>
+			<option value="ARE1">Art Education (MAT)</option>
+			<option value="AHS">Art History</option>
+			<option value="ATC">Art Teaching Credential</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>			
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="IND">Industrial Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+			<option value="CA">Web Design &amp; New Media</option>
+        </select>
+    </div>
+    <div class="Doctoral-Degree">
+        <select id="Program9" name="Program" class="field-size-top-large">
+        <option value="">Select an area of interest</option>
+             <option value="ACT">Acting</option>
+			<option value="ARH1">Advanced Architectural Design</option>
+			<option value="ADV">Advertising</option>
+			<option value="ANM">Animation &amp; Visual Effects</option>
+			<option value="ARH">Architecture</option>
+			<option value="ARE">Art Education</option>
+			<option value="ARE1">Art Education (MAT)</option>
+			<option value="AHS">Art History</option>
+			<option value="ATC">Art Teaching Credential</option>
+			<option value="AUT">Automotive Restoration</option>
+			<option value="COM">Communications &amp; Media Technologies</option>
+			<option value="FSH-CD">Costume Design</option>			
+			<option value="FSH">Fashion</option>
+			<option value="FSH-J">Fashion Journalism</option>
+			<option value="FSH-MK">Fashion Marketing</option>
+			<option value="FSH-MR">Fashion Merchandising</option>
+			<option value="FSH-PD">Fashion Product Development</option>
+			<option value="FSH-S">Fashion Styling</option>
+			<option value="FSH-KW">Fashion - Knitwear Design</option>
+			<option value="FSH-TX">Fashion - Textile Design</option>
+			<option value="FSH-VM">Fashion - Visual Merchandising</option>
+			<option value="FA">Fine Art</option>
+			<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+			<option value="GAM">Game Development</option>
+			<option value="GAP">Game Programming</option>
+			<option value="GR">Graphic Design</option>
+			<option value="IAD">Interior Architecture &amp; Design</option>
+			<option value="IND">Industrial Design</option>
+			<option value="ILL">Illustration</option>
+			<option value="JEM">Jewelry &amp; Metal Arts</option>
+			<option value="LAN">Landscape Architecture</option>
+			<option value="MPT">Motion Pictures &amp; Television</option>
+			<option value="MUS-SC">Music Scoring &amp; Composition</option>
+			<option value="PH">Photography</option>
+			<option value="PRO">Professional Development - Social Media Center</option>
+			<option value="MUS-SD">Sound Design</option>
+			<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+			<option value="VIS">Visual Development</option>
+			<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+			<option value="CA">Web Design &amp; New Media</option>
+        </select>
+    </div>
+    <div class="Did-Not-Complete-High-School-No-GED">
+        <select id="Program10" name="Program" class="field-size-top-large">
+            <option value="">Select an area of interest</option>
+<option value="ACT">Acting</option>
+<option value="ADV">Advertising</option>
+<option value="ANM">Animation &amp; Visual Effects</option>
+<option value="ARH-D">Architectural Design (4 Year)</option>
+<option value="ARH2">Architecture (5 Year Licensure)</option>
+<option value="ARE">Art Education</option>
+<option value="AHS">Art History</option>
+<option value="AUT">Automotive Restoration</option>
+<option value="COM">Communications &amp; Media Technologies</option>
+<option value="FSH-CD">Costume Design</option>
+<option value="FSH">Fashion</option>
+<option value="FSH-J">Fashion Journalism</option>
+<option value="FSH-KW">Fashion - Knitwear Design</option>
+<option value="FSH-MK">Fashion Marketing</option>
+<option value="FSH-MR">Fashion Merchandising</option>
+<option value="FSH-PD">Fashion Product Development</option>
+<option value="FSH-S">Fashion Styling</option>
+<option value="FSH-TX">Fashion - Textile Design</option>
+<option value="FSH-VM">Fashion - Visual Merchandising</option>
+<option value="FA">Fine Art</option>
+<option value="FSH-FW">Footwear &amp; Accessory Design</option>
+<option value="GAM">Game Development</option>
+<option value="GAP">Game Programming</option>
+<option value="GR">Graphic Design</option>
+<option value="ILL">Illustration</option>
+<option value="IND">Industrial Design</option>
+<option value="IAD">Interior Architecture &amp; Design</option>
+<option value="JEM">Jewelry &amp; Metal Arts</option>
+<option value="LAN">Landscape Architecture</option>
+<option value="MPT">Motion Pictures &amp; Television</option>
+<option value="MUS-MP">Music Production</option>
+<option value="MUS-SC">Music Scoring &amp; Composition</option>
+<option value="PH">Photography</option>
+<option value="PRO">Professional Development - Social Media Center</option>
+<option value="MUS-SD">Sound Design</option>
+<option value="ADV1">Studio Production for Advertising &amp; Design</option>
+<option value="VIS">Visual Development</option>
+<option value="CA">Web Design &amp; New Media</option>
+<option value="WRI">Writing for Film, Television, &amp; Digital Media</option>
+</select>
+</div>
+</div>
+</div>
+<div class="containerDavid1">
+<div class="1" id = "1">
+How would you like to take courses?
+
+
+
+<select id="aacOnlineInterest11" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+<font size="3" color="red">Currently only offered onsite.</font>
+</div>
+
+
+
+<div class="2" id = "2">
+How would you like to take courses?
+
+<select id="aacOnlineInterest12" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="containerDavid2">
+<div class="1" id = "1">
+How would you like to take courses?
+<select id="aacOnlineInterest21" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+<font size="3" color="red">Currently only offered onsite.</font>
+
+
+</div>
+<div class="2" id = "2">
+How would you like to take courses?
+<select id="aacOnlineInterest22" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+</div>
+
+
+
+</div>
+
+
+<div class="containerDavid3">
+<div class="1" id = "1">
+
+How would you like to take courses?
+
+
+
+</div>
+<select id="aacOnlineInterest31" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+
+<font size="3" color="red">Currently only offered onsite.</font>
+
+<div class="2" id = "2">
+How would you like to take courses?
+<select id="aacOnlineInterest32" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+
+
+</div>
+
+
+</div>
+
+<div class="containerDavid4">
+<div class="1" id = "1">
+How would you like to take courses?
+<select id="aacOnlineInterest41" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+<font size="3" color="red">Currently only offered onsite.</font>
+</div>
+<div class="2" id = "2">
+How would you like to take courses?
+<select id="aacOnlineInterest42" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+</div>
+</div>
+<div class="containerDavid5">
+<div class="1" id = "1">
+How would you like to take courses?
+<select id="aacOnlineInterest51" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+<font size="3" color="red">Currently only offered onsite.</font>
+</div>
+<div class="2" id = "2">
+<span class="form-title">How would you like to take courses?</span>
+
+<select id="aacOnlineInterest52" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+
+
+
+
+
+</div>
+</div>
+
+<div class="containerDavid6">
+<div class="1" id = "1">
+How would you like to take courses?
+<select id="aacOnlineInterest61" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+
+<font size="3" color="red">Currently only offered onsite.</font>
+
+
+</div>
+<div class="2" id = "2">
+
+<span class="form-title">How would you like to take courses?</span>
+
+
+
+
+
+<select id="aacOnlineInterest62" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+
+
+</div>
+
+</div>
+
+<div class="containerDavid7">
+<div class="1" id = "1">
+How would you like to take courses?
+
+<select id="aacOnlineInterest71" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+<font size="3" color="red">Currently only offered onsite.</font>
+
+</div>
+<div class="2" id = "2">
+
+How would you like to take courses?
+
+
+
+
+<select id="aacOnlineInterest72" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+</div>
+
+
+
+</div>
+
+
+<div class="containerDavid8">
+<div class="1" id = "1">
+How would you like to take courses?
+
+
+
+
+
+<select id="aacOnlineInterest81" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+<font size="3" color="red">Currently only offered onsite.</font>
+</div>
+
+
+<div class="2" id = "2">
+How would you like to take courses?
+
+<select id="aacOnlineInterest82" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+</div>
+</div>
+
+
+<div class="containerDavid9">
+<div class="1" id = "1">
+How would you like to take courses?
+
+<select id="aacOnlineInterest91" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only" disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+
+<font size="3" color="red">Currently only offered onsite.</font>
+</div>
+<div class="2" id = "2">
+
+<span class="form-title">How would you like to take courses?</span>
+
+
+
+
+
+<select id="aacOnlineInterest92" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+</div>
+
+
+</div>
+
+<div class="containerDavid10">
+<div class="1" id = "1">
+How would you like to take courses?
+<select id="aacOnlineInterest101" name="aac_online_interst"  data-ddignore="true" >
+<option value="" disabled>Select One</option>
+<option value="Onsite Only" disabled selected>Onsite Only</option>
+<option value="Online Only"disabled>Online Only</option>
+<option value="Both" disabled>Both</option>
+</select>
+
+
+<font size="3" color="red">Currently only offered onsite.</font>
+</div>
+
+
+<div class="2" id = "2">
+How would you like to take courses?
+<select id="aacOnlineInterest102" name="aac_online_interst"  data-ddignore="true" >
+<option value="">Select One</option>
+<option value="Onsite Only">Onsite Only</option>
+<option value="Online Only">Online Only</option>
+<option value="Both">Both</option>
+</select>
+</div>
+</div>
+              Tour Times
+			Booking multiple tours? You can book tours back to back (e.g., 9:00 am and 10:00 am).
+			<div class="containerTourForm">           
+			Animation & Visual Effects (2D Stop Motion & 3D), Game Development and Music Production & Sound Design for Visual Media		  
+                  <input id = "11" name="TourTime_ALL_1" type="radio" value="9:00 AM" class="input" required = "" onclick = "myFunction(11)"/>
+                    9:00 AM
+				  <input id = "21" name="TourTime_ALL_1" type="radio" value="3:00 PM" class="input" required = "" onclick = "myFunction(21)"/>
+                    3:00 PM
+			Advertising, Graphic Design and Web Design & New Media
+                  <input id = "12" name="TourTime_ALL_2" type="radio" value="9:00 AM" class="input" required = "" onclick = "myFunction(12)"/>					
+                    9:00 AM
+				  <input id = "22" name="TourTime_ALL_2" type="radio" value="3:00 PM" class="input" required = "" onclick = "myFunction(22)"/>
+                    3:00 PM
+			Motion Pictures & Television (Post Production Editing), Art Education and Communications & Media Technologies
+                  <input id= "13" name="TourTime_ALL_3" type="radio" value="9:00 AM" class="input" required = "" onclick = "myFunction(13)"/>
+                    9:00 AM
+				  <input id = "23" name="TourTime_ALL_3" type="radio" value="3:00 PM" class="input" required = "" onclick = "myFunction(23)"/>
+                    3:00 PM
+			Acting, Motion Pictures & Television (Sound Stages) and Writing for Film, Television & Digital Media			
+                  <input id = "31" name="TourTime_ALL_4" type="radio" value="10:00 AM" class="input" required = "" onclick = "myFunction(31)"/>
+                    10:00 AM
+                  <input id = "41" name="TourTime_ALL_4" type="radio" value="2:00 PM" class="input" required = "" onclick = "myFunction(41)"/>
+                    2:00 PM
+			Illustration and Visual Development
+                  <input id = "32" name="TourTime_ALL_5" type="radio" value="10:00 AM" class="input" required = "" onclick = "myFunction(32)"/>
+                    10:00 AM
+                  <input id = "42" name="TourTime_ALL_5" type="radio" value="2:00 PM" class="input" required = "" onclick = "myFunction(42)"/>
+                    2:00 PM
+			Art History and Fine Art (Painting & Printmaking)
+                  <input id = "33" name="TourTime_ALL_6" type="radio" value="10:00 AM" class="input" required = "" onclick = "myFunction(33)"/>
+                    10:00 AM
+			Industrial Design and Automotive Restoration
+                  <input id = "34" name="TourTime_ALL_7" type="radio" value="10:00 AM" class="input" required = "" onclick = "myFunction(34)"/>
+                    10:00 AM
+			Campus Housing (Undergraduate Buildings Only)
+                  <input id = "51" name="TourTime_ALL_8" type="radio" value="11:00 AM" class="input" required = "" onclick = "myFunction(51)"/>
+                    11:00 AM
+                  <input id = "61" name="TourTime_ALL_8" type="radio" value="2:00 PM" class="input" required = "" onclick = "myFunction(61)"/>
+                    2:00 PM
+			Landscape Architecture and Fine Art (Sculpture)
+                  <input id = "52" name="TourTime_ALL_9" type="radio" value="11:00 AM" class="input" required = "" onclick = "myFunction(52)"/>
+                    11:00 AM				  
+			Photography
+                  <input id = "53" name="TourTime_ALL_10" type="radio" value="11:00 AM" class="input" required = "" onclick = "myFunction(53)"/>
+                    11:00 AM			
+			Fashion Marketing, Fashion Merchandising, Fashion Product Development and Fashion Visual Merchandising
+                  <input id = "71" name="TourTime_ALL_11" type="radio" value="12:00 PM" class="input" required = "" onclick = "myFunction(71)"/>
+                    12:00 PM
+			Jewelry & Metal Arts
+                  <input id = "72" name="TourTime_ALL_12" type="radio" value="12:00 PM" class="input" required = "" onclick = "myFunction(72)"/>
+                    12:00 PM
+			Fashion Design, Costume Design and Fashion Styling
+                  <input id = "81" name="TourTime_ALL_13" type="radio" value="1:00 PM" class="input" required = "" onclick = "myFunction(81)"/>
+                    1:00 PM
+			Architecture and Interior Architecture & Design
+                  <input id = "91" name="TourTime_ALL_14" type="radio" value="2:00 PM" class="input" required = "" onclick = "myFunction(91)"/>
+                    2:00 PM
+              Total number of attendees:
+            <select required = ""  id="field2" name="attendees" class="field-size-top-large" >
+              <option value="1" >
+                1
+              </option>
+              <option value="2" >
+                2
+              </option>
+              <option value="3" >
+                3
+              </option>
+              <option value="4" >
+                4
+              </option>
+            </select>
+              Including yourself
+            <input id="field12" required ="" type="hidden" name="24__tcpaExpressConsent" value="Y"  /></div> 
+           <input type="submit" value="Submit" required ="" class="submit-button" style="font-size: 100%; height: 24px; width: 100px"  /></div>
+	<input id="referral_engine" name="referral_engine" type="hidden" />
+  <script type="text/javascript">	
+				var referral_engine = getCookie("referral_engine");
+            	document.getElementById('referral_engine').value = referral_engine;
+        </script>
+
+
+<input id="IT" name="IT" type="hidden" />
+  <script type="text/javascript">	
+				var IT = getCookie("IT");
+            	document.getElementById('IT').value = IT;
+        </script>
+
+	<input id="field13" type="hidden" name="FORMNAME" value="2"  />
+  </form>
+
+
