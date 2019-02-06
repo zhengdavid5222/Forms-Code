@@ -271,16 +271,6 @@ jQuery(document).ready(function() {
 		document.getElementById("Program8").value = "";
 		document.getElementById("Program9").value = "";
 		document.getElementById("Program10").value = "";		
-		document.getElementById("aacOnlineInterest11").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest21").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest31").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest41").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest51").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest61").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest71").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest81").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest91").options[1].disabled = true;	
-		document.getElementById("aacOnlineInterest101").options[1].disabled = true;
 		
         var value = jQuery(this).val();
 
