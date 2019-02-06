@@ -439,7 +439,6 @@ jQuery(document).ready(function() {
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements1.filter('.' + 1).show(); 
 			document.getElementById("aacOnlineInterest12").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest11").setAttribute("required", "");
 			document.getElementById("aacOnlineInterest11").options[1].disabled = false;			
         }
 		else{
@@ -486,8 +485,7 @@ jQuery(document).ready(function() {
 		}
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements2.filter('.' + 1).show(); 
-			document.getElementById("aacOnlineInterest22").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest21").setAttribute("required", "");	
+			document.getElementById("aacOnlineInterest22").removeAttribute("required");		
 			document.getElementById("aacOnlineInterest21").options[1].disabled = false;	
         }
 		else{
@@ -519,8 +517,7 @@ jQuery(document).ready(function() {
 		}
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements3.filter('.' + 1).show(); 
-			document.getElementById("aacOnlineInterest32").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest31").setAttribute("required", "");
+			document.getElementById("aacOnlineInterest32").removeAttribute("required");				
 			document.getElementById("aacOnlineInterest31").options[1].disabled = false;
         }
 		else{
@@ -552,7 +549,6 @@ jQuery(document).ready(function() {
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements4.filter('.' + 1).show(); 
 			document.getElementById("aacOnlineInterest42").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest41").setAttribute("required", "");
 			document.getElementById("aacOnlineInterest41").options[1].disabled = false;
         }
 		else{
@@ -584,7 +580,6 @@ jQuery(document).ready(function() {
 		else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements5.filter('.' + 1).show(); 
 			document.getElementById("aacOnlineInterest52").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest51").setAttribute("required", "");
 			document.getElementById("aacOnlineInterest51").options[1].disabled = false;			
         }
 		else{
@@ -616,7 +611,6 @@ jQuery(document).ready(function() {
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements6.filter('.' + 1).show(); 
 			document.getElementById("aacOnlineInterest62").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest61").setAttribute("required", "");
 			document.getElementById("aacOnlineInterest61").options[1].disabled = false;	
         }
 		else{
@@ -648,7 +642,6 @@ jQuery(document).ready(function() {
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements7.filter('.' + 1).show(); 
 			document.getElementById("aacOnlineInterest72").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest71").setAttribute("required", "");
 			document.getElementById("aacOnlineInterest71").options[1].disabled = false;	
         }
 		else{
@@ -679,8 +672,7 @@ jQuery(document).ready(function() {
 		}
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements8.filter('.' + 1).show(); 
-			document.getElementById("aacOnlineInterest82").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest81").setAttribute("required", "");	
+			document.getElementById("aacOnlineInterest82").removeAttribute("required");		
 			document.getElementById("aacOnlineInterest81").options[1].disabled = false;	
         }
 		else{
@@ -712,7 +704,6 @@ jQuery(document).ready(function() {
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements9.filter('.' + 1).show(); 
 			document.getElementById("aacOnlineInterest92").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest91").setAttribute("required", "");
 			document.getElementById("aacOnlineInterest91").options[1].disabled = false;	
         }
 		else{
@@ -743,8 +734,7 @@ jQuery(document).ready(function() {
 		}
         else if (value == "ACT" || value == "ATC" || value == "ARH1" || value == "AUT" || value == "FSH-TX" || value == "FSH-KW" || value == "FSH-FW") { 
             elements10.filter('.' + 1).show(); 
-			document.getElementById("aacOnlineInterest102").removeAttribute("required");	
-			document.getElementById("aacOnlineInterest101").setAttribute("required", "");	
+			document.getElementById("aacOnlineInterest102").removeAttribute("required");		
 			document.getElementById("aacOnlineInterest101").options[1].disabled = false;
         }
 		else{
